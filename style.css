@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Roboto", sans-serif;
+}
+header{
+    padding: 16px 0;
+    background-color: #9061c2;
+    color: #ffffff;
+}
+
+header,
+section h2{
+    font-family: "Bungee", sans-serif;
+    font-weight: normal;
+}
+header nav li{
+    display: inline;
+    margin-left: 16px;
+    font-size: 14px;
+    color: #ffffff;
+}
+header nav li a{
+    color: #ffffff;
+    text-decoration: none;
+    cursor: pointer;
+}
+.container{
+    max-width: 1260px;
+    width: 100%;
+    margin: 0 auto;
+}
+header .container,
+section .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.brands img{
+    height: 24px;
+    
+}
+.brands li{
+    display: inline;
+    margin-right: 8px;
+}
+section .container{
+    align-items: flex-start;
+}
+section{
+    padding: 24px 0;
+}
+section h2{
+    margin-bottom: 16px;
+    color: #f71765;
+}
+section p{
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+.store-front{
+    margin-right: 32px;
+}
+.social img{
+    height: 24px;
+}
+#contato .container{
+    display: block;
+}
+.meios{
+    display: flex;
+    justify-content: space-between;
+}
+.meios h3{
+    font-family: "Bungee", sans-serif;
+    font-size: 16px;
+}
+form input,
+form textarea,
+form button{
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+form textarea{
+    resize: none;
+    height: 180px;
+}
+form button{
+    background-color: #f71765;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    font-family: "Bungee", sans-serif;
+}
+form button:hover{
+    background-color: #9061c2;
+}
+input:focus,textarea:focus{
+    outline-color: #9061c2;
+}
+
+.social img{
+    height: 24px;
+    margin-top: 16px;
+}
+.social li{
+    display: inline;
+    margin-right: 8px;
+}
+.social li a{
+    text-decoration: none;
+}
